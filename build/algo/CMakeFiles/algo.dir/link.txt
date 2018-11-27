@@ -1,0 +1,2 @@
+/usr/bin/ar qc libalgo.a  CMakeFiles/algo.dir/source/funk1.cpp.o
+/usr/bin/ranlib libalgo.a

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/sol.dir/main.cpp.o  -o sol -rdynamic algo/libalgo.a 
