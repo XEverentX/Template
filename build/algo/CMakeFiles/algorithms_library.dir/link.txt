@@ -1,2 +1,0 @@
-/usr/bin/ar qc libalgorithms_library.a  CMakeFiles/algorithms_library.dir/source/funk1.cpp.o
-/usr/bin/ranlib libalgorithms_library.a

@@ -1,1 +1,0 @@
-int funk1 (int x, int y);

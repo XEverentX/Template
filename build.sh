@@ -6,14 +6,14 @@ if [ "$1" == "build" ]; then
 
 	cd build 
 
-	cmake ~/space/CmakeTest/Fourth/
+	cmake ~/space/lab3/
 	make
 	cd ..
 fi
 
 if [ "$1" == "run" ]; then 
 	cd build
-	./sol
+	./application/lab3
 	cd ..
 fi 
 

@@ -1,8 +1,20 @@
 #include<iostream>
-#include"algo/includes/funk1.h"
+#include<string.h>
+#include<stdio.h>
+#include"../algo/includes/Stack.h"
+#include"../algo/includes/help_funk.h"
+#include"../algo/includes/priority.h"
+#include"../algo/includes/postfix.h"
+#include"../algo/includes/calc.h"
 
 int main() {
-    int x, y;
-    std::cin >> x >> y;
-    std::cout << funk1 (x, y) << std::endl;
+    char *s = new char[1000];
+    std::cin >> s;
+    try {
+        postfix res = calc (s);
+        std::cout << std::endl << res.ans << std::endl;
+        res.print ();
+    } catch (char* er) {
+        std::cout << er << std::endl;
+    }
 }
